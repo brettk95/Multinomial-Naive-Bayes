@@ -174,10 +174,6 @@ print(class_priors)
 # In[23]:
 
 
-'''
-This might need to be re-done:
-P(xi|Ck) = count(xi|Ck)+1 / sum(all x | Ck) + |unique words| .... where |unique words| = len(features)
-'''
 
 # create a dictionary for each class to get the prior probabilities for each word given that class - P(xi|Ck)
 
